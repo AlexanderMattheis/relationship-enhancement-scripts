@@ -1,7 +1,7 @@
 # SCRIPT 2018-10-16, Powershell 5.1.17134.228, Alexander Mattheis
 
-$IDS_WINDOWS_MIN_RELEASE = 1703;
 $GLOM_LEVEL_HIDING_IF_NECESSARY = 1;
+$IDS_WINDOWS_MIN_RELEASE = 1703;
 
 <#
 	Stores all messages used in the program.
