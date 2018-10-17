@@ -16,6 +16,7 @@ function Start-Script() {
 		Activate-NameExtensions;
 		Activate-TaskbarSmallIcons;
         Remove-ShortcutNameExtension;
+		Set-TaskbarGlomLevel($GLOM_LEVEL_HIDING_IF_NECESSARY);
 	    Stop-Process -Name explorer;  # restarts explorer
     } else {
 		Write-Warning ([Messages]::ADMIN_RIGHTS);
@@ -77,5 +78,19 @@ function Remove-ShortcutNameExtension() {
 		Write-Warning ([Messages]::SHORTCUT_NAME_EXTENSION);
 	}
 }
+
+
+<#
+.SYNOPSIS
+    Sets the taskbar glom-level.
+.DESCRIPTION
+    Changes the taskbar behaviour such that taskbar buttons only combined if necessary.
+.PARAMETER glomLevel [int]
+	The glom-level at which the taskbar should be set;
+#>
+function Set-TaskbarGlomLevel([int]$glomLevel) {
+	Set-ItemProperty ([Keys]::SETTINGS) TaskbarGlomLevel $glomLevel;
+}
+
 
 Start-Script;
