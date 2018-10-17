@@ -21,4 +21,4 @@ Configures Windows 1703+ after installation:
 - activates name extensions
 - activates thin taskbar with small taskbar icons
 - removes shortcut name extensions e.g. "- Shortcut" or in Germany "Verknüpfung mit"
-- sets the taskbar glom level i.e. taskbar buttons only combined if necessary
+- sets the taskbar glom-level i.e. taskbar buttons only combined if necessary
