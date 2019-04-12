@@ -1,0 +1,10 @@
+## Ignore Visual Studio temporary files
+
+# User-specific files
+*.sln
+*.pssproj
+
+# User-specific folders
+/src/bin
+/src/obj
+/.vs/
