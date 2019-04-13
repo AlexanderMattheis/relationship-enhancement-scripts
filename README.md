@@ -21,7 +21,7 @@ Lists all files from current directory with different settings.
 Lists the names from active processes.
 
 ## Recursive DOC/DOCX to PDF Converter
-Converts all `*.doc(x)`-files in a folder and subfolders into `*.pdf`-files (tested with Microsoft Word 2016).
+Creates for all `*.doc(x)`-files in a folder and its subfolders corresponding `*.pdf`-files (tested with Microsoft Word 2016).
 
 ## Services Lister
 Lists the names from services.
