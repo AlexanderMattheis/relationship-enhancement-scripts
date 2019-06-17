@@ -7,7 +7,7 @@ $PDF_FORMAT = 17;
 function Start-Script() {
     $wordApplication = New-Object -ComObject Word.Application;
 
-    Get-ChildItem -Path $PSScriptRoot -Include *.doc, *.docx -Recurse |
+    Get-ChildItem -Path $PSScriptRoot -Include *.doc, *.docx, *.rtf -Recurse |
 	    ForEach-Object {
 		    $docFile = $wordApplication.Documents.Open($_.Fullname);
 		    $pdfFileName = $_.FullName -replace $_.Extension, '.pdf';
