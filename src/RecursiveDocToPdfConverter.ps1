@@ -3,7 +3,6 @@
 # constants
 $PDF_FORMAT = 17;
 
-
 function Start-Script() {
     $wordApplication = New-Object -ComObject Word.Application;
 
