@@ -10,6 +10,9 @@ All scripts can be directly executed under Windows without any installation of f
 But the scripts were written with Powershell 5.1+ and designed for Windows 10 Version 1703 up to 1803.
 So, I cannot guarantee that they will work on other systems than Windows 10 Version 1703 up to 1803.
 
+## Backup Changed Files
+Backups recursively all files that are younger than a given number of days and of a certain type to a destination folder.
+
 ## Dated Folder Creator
 Creates a number of folders with the current date and a count with padding in the format `yyyy-MM-dd-[count]`
 e.g. `2018-10-14-01, 2018-10-14-02, ..., 2018-10-14-12`.
