@@ -11,8 +11,8 @@ But the scripts were written with Powershell 5.1+ and designed for Windows 10 Ve
 So, I cannot guarantee that they will work on other systems than Windows 10 Version 1703 up to 1803.
 
 ## Dated Folder Creator
-Creates a number of folders with the current date and a count with padding in the format *yyyy-MM-dd-[count]* 
-e.g. *2018-10-14-01, 2018-10-14-02, ..., 2018-10-14-12*.
+Creates a number of folders with the current date and a count with padding in the format `yyyy-MM-dd-[count]`
+e.g. `2018-10-14-01, 2018-10-14-02, ..., 2018-10-14-12`.
 
 ## Files Lister
 Lists all files from current directory with different settings.
@@ -21,7 +21,7 @@ Lists all files from current directory with different settings.
 Lists the names from active processes.
 
 ## Recursive DOC/DOCX to PDF Converter
-Converts all *.doc(x)-files in a folder and subfolders into *.pdf-files (Microsoft Word 2016 is necessary).
+Converts all `*.doc(x)`-files in a folder and subfolders into `*.pdf`-files (tested with Microsoft Word 2016).
 
 ## Services Lister
 Lists the names from services.
@@ -31,5 +31,5 @@ Configures Windows 10 Version 1703 up to 1803 after a reinstallation:
 - activates the classic photo viewer
 - activates name extensions
 - activates thin taskbar with small taskbar icons
-- removes shortcut name extensions e.g. "- Shortcut" or in Germany "Verknüpfung mit"
+- removes shortcut name extensions e.g. `- Shortcut` or in Germany `Verknüpfung mit`
 - sets the taskbar glom-level i.e. taskbar buttons only combined if necessary
