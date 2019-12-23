@@ -3,7 +3,8 @@
 Param(
   [Parameter(Mandatory=$true, position=0)][String]$inkscapeExePath,
   [Parameter(Mandatory=$true, position=1)][String]$svgPath,
-  [Parameter(Mandatory=$true, position=2)][String]$targetPath
+  [Parameter(Mandatory=$true, position=2)][String]$targetPath,
+  [Parameter(Mandatory=$true, position=3)][String]$dpi
 );
 
 function Start-Script() {
@@ -21,8 +22,8 @@ function Start-Script() {
 				New-Item -Path $destinationDirPath -Type Directory | out-null;  # if not, create the directory
 			}
 
-			Write-Host "inkscape --file=$sourcePath --export-png=$destinationFilepath";
-			Invoke-Expression 'inkscape --file="$sourcePath" --export-png="$destinationFilepath"';
+			Write-Host "inkscape --file=$sourcePath --export-png=$destinationFilepath --export-dpi=$dpi";
+			Invoke-Expression 'inkscape --file="$sourcePath" --export-png="$destinationFilepath" --export-dpi="$dpi"';
 		}
 
 	Write-Host "DONE";
