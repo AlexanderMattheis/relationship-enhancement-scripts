@@ -26,6 +26,10 @@ Lists the names from active processes.
 ## Recursive DOC/DOCX to PDF Converter
 Creates for all `*.doc(x)`-files in a folder and its subfolders corresponding `*.pdf`-files (tested with Microsoft Word 2016).
 
+## Recursive SVG to PNG Exporter
+
+Exports for all Inkscape `*.svg`-files in a folder and its subfolders corresponding `*.png`-files to an existent destination-folder (tested with inkscape 0.48.5 r10040).
+
 ## Services Lister
 Lists the names from services.
 
