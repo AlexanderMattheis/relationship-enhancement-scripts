@@ -31,7 +31,7 @@ Creates for all `*.doc(x)`-files in a folder and its subfolders corresponding `*
 
 ## Recursive SVG to PNG Exporter
 
-Exports for all Inkscape `*.svg`-files in a folder and its subfolders corresponding `*.png`-files to an existent destination-folder (tested with inkscape 0.48.5 r10040).
+Exports for all Inkscape `*.svg`-files in a folder and its subfolders corresponding `*.png`-files to an existent destination-folder (tested with Inkscape 0.48.5 r10040).
 
 ## Services Lister
 Lists the names from services.
