@@ -21,7 +21,7 @@ e.g. `2018-10-14-01, 2018-10-14-02, ..., 2018-10-14-12`.
 Lists all files from current directory with different settings.
 
 ## PNG-Mirror & Rotator
-Allows to create mirrored/rotated (in 90° steps) pictures from a given path by using commands like `RotateNoneFlipNone, Rotate90FlipX`. It is also possible to give the mirrored/rotated pictures a name extension like `_up, _down`.
+Allows to create mirrored/rotated (in 90° steps) pictures from a given path by using commands like `RotateNoneFlipNone, Rotate90FlipX`. It is also possible to give the mirrored/rotated pictures a name extension like `_up`, `_down`.
 
 ## Processes Lister
 Lists the names from active processes.
