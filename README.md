@@ -3,7 +3,7 @@
 # Relationship-Enhancement-Scripts
 Are you constantly stressed by your operating system? You are constantly in dispute?
 Then I have something for you, the Relationship-Enhancement-Scripts for a better, trustworthy cooperation
-between humans and machines. That scripts should simplify your life and give you more control over your operating system.
+between humans and machines. These scripts should simplify your life and give you more control over your operating system.
 All scripts can be directly executed under Windows without any installation of further software.
 
 **Hint:** You can install Powershell on your Mac and Linux system, too.
